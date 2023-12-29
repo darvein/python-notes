@@ -1,5 +1,6 @@
 # Python Tutorial
 Resource: https://docs.python.org/3/tutorial/index.html
+
 Code snippets: https://github.com/darvein/code-snippets/tree/main/python/tutorial
 
 ## Overview
@@ -15,8 +16,7 @@ At first glance this teaches about:
 
 ## Notes from Tutorial
 ### An Informal Introduction to Python
-Simplier math operations, variables definition and strings manipulation. Also a little bit of lists. 
-https://github.com/darvein/code-snippets/blob/main/python/tutorial/informal-intro.py
+Simplier math operations, variables definition and strings manipulation. Also a little bit of lists. Here an example :link: [informal-intro.py](informal-intro.py)
 ### More Control Flow Tools
 ### Data Structures
 ### Modules
