@@ -18,7 +18,7 @@ At first glance this teaches about:
 ### An Informal Introduction to Python
 Simplier math operations, variables definition and strings manipulation. Also a little bit of lists. Here an example :link: [01.lab01.py](01.lab01.py)
 ### More Control Flow Tools
-Conditionals, Loops, Functions...
+Conditionals, Loops, Match/Case, Functions (positional arguments and keywords) and Lambdas.
 ### Data Structures
 ### Modules
 ### Input and Output
