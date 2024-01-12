@@ -1,8 +1,6 @@
 # Python Tutorial
 Resource: https://docs.python.org/3/tutorial/index.html
 
-Code snippets: https://github.com/darvein/code-snippets/tree/main/python/tutorial
-
 ## Overview
 At first glance this teaches about:
 - Basics: variables, operators and data types. Math, numbers, strings and lists
@@ -20,6 +18,17 @@ Simplier math operations, variables definition and strings manipulation. Also a 
 ### More Control Flow Tools
 Conditionals, Loops, Match/Case, Functions (positional arguments and keywords) and Lambdas.
 ### Data Structures
+Basics:
+- Lists: its common functions: count, sort, sort, reverse, copy, extend, insert, remove, pop, clear, index
+- Stacks: A list can be treated as stac by using its functions like `list.append()` or `list.pop()`
+    - Remember a stack is FIFO
+- Queues: By usage of `deque` from `collections`
+    - Remember a queue is LIFO
+- List comprenhensions: Done by `[]` with a for loop (the so called list comprehensions) and `lambda`s
+- Tuples: Immutable items on a list
+- Sets: Unique items on a list
+- Dictionaries: key:value pair of items
+
 ### Modules
 ### Input and Output
 ### Errors and Exceptions

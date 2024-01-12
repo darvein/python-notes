@@ -1,5 +1,3 @@
-import sys
-
 # For loop :D
 for i in range (2, 2):
     if i % 2 == 0:
