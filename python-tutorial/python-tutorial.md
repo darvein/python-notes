@@ -15,8 +15,10 @@ At first glance this teaches about:
 ## Notes from Tutorial
 ### An Informal Introduction to Python
 Simplier math operations, variables definition and strings manipulation. Also a little bit of lists. Here an example :link: [01.lab01.py](01.lab01.py)
+
 ### More Control Flow Tools
 Conditionals, Loops, Match/Case, Functions (positional arguments and keywords) and Lambdas.
+
 ### Data Structures
 Basics:
 - Lists: its common functions: count, sort, sort, reverse, copy, extend, insert, remove, pop, clear, index
@@ -30,6 +32,21 @@ Basics:
 - Dictionaries: key:value pair of items
 
 ### Modules
+A single file becomes a module, for example foobar.py becomes a module called `foobar`.
+
+The default modules loaded in python are:
+- `builtins`
+- `os` and `sys` but partially, not all its functions/features
+
+:exclamation: Important to keep in mind that if a single py file is executed directly it becomes `__name__ = __main__` but if it is being called from another py file then `__name__` becomes the name of the py file (see lab04 py scripts on this repo).
+
+Modules are loaded from `sys.builtin_module_names` or `sys.path` (PYTHONPATH, current directory or site-packages dir).
+
+The `dir()` function lists all available properties and functions of a given module, e.g.: `dir(sys)` or `dir(builtins)`
+
+**Packages** :package: are sub-directories of a module for example this package `sounds.effects.echo` has this path directory: `./sounds/effects/echo.py` we can import it like `from sounds.effects import *` or relatively load the module `from ..sounds.effects import *`.
+
+
 ### Input and Output
 ### Errors and Exceptions
 ### Classes
