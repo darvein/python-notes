@@ -12,14 +12,13 @@ At first glance this teaches about:
 - Exceptions: `try`, `except`, `finally`
 - Others: List comprehension, function decorators 
 
-## Notes from Tutorial
-### An Informal Introduction to Python
+## An Informal Introduction to Python
 Simplier math operations, variables definition and strings manipulation. Also a little bit of lists. Here an example :link: [01.lab01.py](01.lab01.py)
 
-### More Control Flow Tools
+## More Control Flow Tools
 Conditionals, Loops, Match/Case, Functions (positional arguments and keywords) and Lambdas.
 
-### Data Structures
+## Data Structures
 Basics:
 - Lists: its common functions: count, sort, sort, reverse, copy, extend, insert, remove, pop, clear, index
 - Stacks: A list can be treated as stac by using its functions like `list.append()` or `list.pop()`
@@ -31,7 +30,7 @@ Basics:
 - Sets: Unique items on a list
 - Dictionaries: key:value pair of items
 
-### Modules
+## Modules
 A single file becomes a module, for example foobar.py becomes a module called `foobar`.
 
 The default modules loaded in python are:
@@ -46,25 +45,38 @@ The `dir()` function lists all available properties and functions of a given mod
 
 **Packages** :package: are sub-directories of a module for example this package `sounds.effects.echo` has this path directory: `./sounds/effects/echo.py` we can import it like `from sounds.effects import *` or relatively load the module `from ..sounds.effects import *`.
 
+## Input and Output
+What python can offer are basically ways to output data say strings or numbers to output resources like the terminal itself also read-write to files.
 
-### Input and Output
-### Errors and Exceptions
-### Classes
-### Brief Tour of the Standard Library
-### Brief Tour of the Standard Library — Part II
-### Virtual Environments and Packages
-### What Now?
-### Interactive Input Editing and History Substitution
-### Floating Point Arithmetic: Issues and Limitations
-### Appendix
+Formatting:
+- `f'Results of the {year} {event}'`
+- `'{:-9} YES votes  {:2.2%}'.format(yes_votes, percentage)`
+- Usage of `repr()` and `str()`
+- `f'The value of pi is approximately {math.pi:.3f}.'`
+- `print('{0:2d} {1:3d} {2:4d}'.format(x, x*x, x*x*x))`
+- `'12'.zfill(5)` for numbers
 
-## Some notes
+Files:
+- `with open('workfile', encoding="utf-8") as f:...` by default mode is `r`
+- `import json`, `json.load(f)`, `json.dump(object_structured, f)`
+
+## Errors and Exceptions
+## Classes
+## Brief Tour of the Standard Library
+## Brief Tour of the Standard Library — Part II
+## Virtual Environments and Packages
+## What Now?
+## Interactive Input Editing and History Substitution
+## Floating Point Arithmetic: Issues and Limitations
+## Appendix
+
+# Some notes
 Creator of this language is Guido Van Rossum, his main intention (besides a hobby project), was to create a programming language for everybody, literally that was his motivation and vision. I think he made it!.
 
 From wikipedia:
 > In 1999, Van Rossum submitted a funding proposal to DARPA called "Computer Programming for Everybody", in which he further defined his goals for Python.
 
-### Python 2 vs Python 3! :boxing_glove:
+## Python 2 vs Python 3! :boxing_glove:
 This was done mainly to get a better maintenability of the code, lots of redundancies removed, code improved. But also breaks compatability.
 
 Visibible from user developer perspective (?):
