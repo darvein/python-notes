@@ -61,6 +61,9 @@ Files:
 - `import json`, `json.load(f)`, `json.dump(object_structured, f)`
 
 ## Errors and Exceptions
+- Common exceptions: OSError, ValueError, Exception, KeyboardInterrupt
+- `finally` block is processed regardless if try/execpt blocks were processed
+- `else` block is processed only when the `try` block was successful
 ## Classes
 ## Brief Tour of the Standard Library
 ## Brief Tour of the Standard Library — Part II
