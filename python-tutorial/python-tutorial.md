@@ -65,6 +65,12 @@ Files:
 - `finally` block is processed regardless if try/execpt blocks were processed
 - `else` block is processed only when the `try` block was successful
 ## Classes
+- By default all variables are defaulted to `local` scope.
+    - A `del foobar` removes the binding from the namespace referenced by the local scope
+    - `global`: is a variable defined inside a function that can be modified externally, globally
+    - `nonlocal`: is a variable that belongs in the nearest eclosing scope and its not global, but can be modified on any inner function
+- A class has to be initiated with function `__init__(self, foo, bar):`
+- Classes support Inheritance and Multiple Inheritance
 ## Brief Tour of the Standard Library
 ## Brief Tour of the Standard Library — Part II
 ## Virtual Environments and Packages
