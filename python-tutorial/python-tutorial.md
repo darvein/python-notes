@@ -72,6 +72,7 @@ Files:
 - A class has to be initiated with function `__init__(self, foo, bar):`
 - Classes support Inheritance and Multiple Inheritance
 ## Brief Tour of the Standard Library
+Popular standard py libraries: os shutil glob sys argparse re math random statistics urllib date
 ## Brief Tour of the Standard Library — Part II
 ## Virtual Environments and Packages
 ## What Now?
