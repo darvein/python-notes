@@ -74,11 +74,8 @@ Files:
 ## Brief Tour of the Standard Library
 Popular standard py libraries: os shutil glob sys argparse re math random statistics urllib date
 ## Brief Tour of the Standard Library — Part II
+Popular standard libs: reprlib, pprint, textwrap, locale, Template, struct, threading, logging, array
 ## Virtual Environments and Packages
-## What Now?
-## Interactive Input Editing and History Substitution
-## Floating Point Arithmetic: Issues and Limitations
-## Appendix
 
 # Some notes
 Creator of this language is Guido Van Rossum, his main intention (besides a hobby project), was to create a programming language for everybody, literally that was his motivation and vision. I think he made it!.
